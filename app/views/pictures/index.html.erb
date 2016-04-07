@@ -1,7 +1,14 @@
 <h1>Pictures (<%= @pictures.length %>)</h1>
-<%= link_to "New Picture", "/pictures/new" %>
+
+<form class = "new_pic_button" action='/pictures/new'>
+  <input type='hidden' name='_method' value='put'>
+  <input type='submit' value='New Picture'>
+</form>
+
+<!-- <%= link_to "New Picture", "/pictures/new" %><br> -->
+
 
 <% @pictures.each do |picture| %>
-  <p><%= picture.title %>, <%= picture.artist %></p>
   <%= link_to image_tag(picture.url), "/pictures/#{picture.id}" %>
+  <p><%= picture.title %>, <%= picture.artist %></p>
 <% end %>

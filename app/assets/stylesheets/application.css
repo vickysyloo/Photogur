@@ -13,3 +13,41 @@
  *= require_tree .
  *= require_self
  */
+
+html {
+
+  font-family: monospace;;
+  color: green;
+  background-image: url();
+
+}
+
+.new_pic_button [type="submit"]{
+
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #006699;
+  border: solid;
+  border-radius: 25px;
+  cursor: pointer;
+
+}
+
+.picture_page {
+
+  font-family: Arial;
+  font-size: 16px;
+
+}
+
+.picture_page input[type="submit"] {
+
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #006699;
+  border: solid;
+  border-radius: 25px;
+  cursor: pointer;
+}

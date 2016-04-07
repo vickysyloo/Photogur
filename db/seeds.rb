@@ -29,3 +29,11 @@ Picture.create!(
   :url    => "http://bitmakerlabs.s3.amazonaws.com/photogur/girl.jpg"
 
 )
+
+Picture.create!(
+
+  :title  => "Six Pills",
+  :artist => "Damien Hirst",
+  :url    => "https://othercriteria.com/img/c4490a6f084673ad/pill-prints3.png"
+
+)
