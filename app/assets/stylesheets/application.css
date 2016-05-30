@@ -51,3 +51,12 @@ html {
   border-radius: 25px;
   cursor: pointer;
 }
+
+footer {
+  background-color: #333;
+  color: white;
+  overflow: hidden;
+  height: 60px;
+  padding: 0 30px;
+  font-size: 12px;
+}
